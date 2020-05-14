@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="com.CalculatorTest" time="0.003" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="com.CalculatorTest" time="0.002" errors="0" skipped="0">
   <properties>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="JOB_NAME" value="mavencalculator"/>
@@ -9,12 +9,14 @@
     <property name="JENKINS_HOME" value="C:\Users\dileep\.jenkins"/>
     <property name="COMPOSE_CONVERT_WINDOWS_PATHS" value="true"/>
     <property name="HUDSON_SERVER_COOKIE" value="29f8ec1e29ee79d1"/>
+    <property name="POM_ARTIFACTID" value="mavenproject"/>
     <property name="os.name" value="Windows 10"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes"/>
-    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
     <property name="sun.desktop" value="windows"/>
     <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="mavenproject"/>
     <property name="NODE_LABELS" value="master"/>
     <property name="TEMP" value="C:\Users\dileep\AppData\Local\Temp"/>
     <property name="java.runtime.version" value="1.8.0_121-b13"/>
@@ -25,10 +27,11 @@
     <property name="ProgramFiles" value="C:\Program Files"/>
     <property name="user.language" value="en"/>
     <property name="JOB_BASE_NAME" value="mavencalculator"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/mavencalculator/1/display/redirect?page=changes"/>
-    <property name="BUILD_DISPLAY_NAME" value="#1"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/mavencalculator/2/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#2"/>
     <property name="OneDrive" value="C:\Users\dileep\OneDrive"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
+    <property name="GIT_PREVIOUS_SUCCESSFUL_COMMIT" value="462f9a2b6d49bb2b3be71f1988433a8720c5520e"/>
     <property name="LOCALAPPDATA" value="C:\Users\dileep\AppData\Local"/>
     <property name="java.version" value="1.8.0_121"/>
     <property name="PROCESSOR_LEVEL" value="6"/>
@@ -37,7 +40,7 @@
     <property name="sun.arch.data.model" value="64"/>
     <property name="NODE_NAME" value="master"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed"/>
-    <property name="BUILD_ID" value="1"/>
+    <property name="BUILD_ID" value="2"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -52,11 +55,13 @@
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="os.version" value="10.0"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/mavencalculator/1/display/redirect"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/mavencalculator/2/display/redirect"/>
+    <property name="POM_VERSION" value="1.0-SNAPSHOT"/>
     <property name="TMP" value="C:\Users\dileep\AppData\Local\Temp"/>
     <property name="path.separator" value=";"/>
     <property name="java.vm.version" value="25.121-b13"/>
     <property name="user.variant" value=""/>
+    <property name="GIT_PREVIOUS_COMMIT" value="462f9a2b6d49bb2b3be71f1988433a8720c5520e"/>
     <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/mavencalculator/display/redirect"/>
     <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
     <property name="USERDOMAIN_ROAMINGPROFILE" value="DESKTOP-C64PF2T"/>
@@ -67,12 +72,14 @@
     <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
     <property name="HOMEPATH" value="\Users\dileep"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
-    <property name="COMPUTERNAME" value="DESKTOP-C64PF2T"/>
+    <property name="POM_PACKAGING" value="jar"/>
     <property name="user.script" value=""/>
+    <property name="COMPUTERNAME" value="DESKTOP-C64PF2T"/>
+    <property name="POM_GROUPID" value="org.example"/>
     <property name="VBOX_MSI_INSTALL_PATH" value="C:\Program Files\Oracle\VirtualBox\"/>
-    <property name="PUBLIC" value="C:\Users\Public"/>
     <property name="user.home" value="C:\Users\dileep"/>
-    <property name="BUILD_TAG" value="jenkins-mavencalculator-1"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-mavencalculator-2"/>
     <property name="JENKINS_SERVER_COOKIE" value="29f8ec1e29ee79d1"/>
     <property name="HUDSON_URL" value="http://localhost:8080/"/>
     <property name="ProgramData" value="C:\ProgramData"/>
@@ -86,7 +93,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="maven.home" value="D:\Software\apache-maven-3.3.9"/>
     <property name="java.class.path" value="C:\Users\dileep\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven33-agent-1.13.jar;D:\Software\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar;D:\Software\apache-maven-3.3.9/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven33Main D:\Software\apache-maven-3.3.9 C:\Users\dileep\.jenkins\war\WEB-INF\lib\remoting-4.2.jar C:\Users\dileep\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven33-interceptor-1.13.jar C:\Users\dileep\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 52406"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven33Main D:\Software\apache-maven-3.3.9 C:\Users\dileep\.jenkins\war\WEB-INF\lib\remoting-4.2.jar C:\Users\dileep\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven33-interceptor-1.13.jar C:\Users\dileep\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 52578"/>
     <property name="Path" value="C:\Program Files\Java\jdk1.8.0_121/bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\ProgramData\Oracle\Java\javapath;D:\Software\Oracle\product\11.2.0\client_1\bin;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Notepad++;C:\Program Files (x86)\WinMerge;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;D:\Software\apache-maven-3.3.9\bin;C:\Users\dileep\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_121\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2020.1\bin;;C:\Users\dileep\AppData\Roaming\npm"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
@@ -102,7 +109,7 @@
     <property name="HUDSON_HOME" value="C:\Users\dileep\.jenkins"/>
     <property name="PATH+MAVEN" value="D:\Software\apache-maven-3.3.9/bin"/>
     <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/mavencalculator/1/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/mavencalculator/2/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="IntelliJ IDEA" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.1\bin;"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
@@ -117,13 +124,13 @@
 "/>
     <property name="MAVEN_HOME" value="D:\Software\apache-maven-3.3.9"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="1"/>
+    <property name="BUILD_NUMBER" value="2"/>
     <property name="JENKINS_URL" value="http://localhost:8080/"/>
     <property name="PROCESSOR_REVISION" value="4e03"/>
     <property name="GIT_BRANCH" value="origin/master"/>
     <property name="ProgramW6432" value="C:\Program Files"/>
     <property name="windir" value="C:\WINDOWS"/>
-    <property name="GIT_COMMIT" value="462f9a2b6d49bb2b3be71f1988433a8720c5520e"/>
+    <property name="GIT_COMMIT" value="c62edbdbec4da14035c29570902b148ec5474093"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="SystemDrive" value="C:"/>
     <property name="maven3.interceptor" value="C:\Users\dileep\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven33-interceptor-1.13.jar"/>
@@ -135,5 +142,5 @@
     <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
     <property name="GIT_URL" value="https://github.com/thattan79/mavenproject.git"/>
   </properties>
-  <testcase classname="com.CalculatorTest" name="sum" time="0.003"/>
+  <testcase classname="com.CalculatorTest" name="sum" time="0.002"/>
 </testsuite>
